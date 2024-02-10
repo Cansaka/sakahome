@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sakahome created by Can Saka</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+    body, html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://i.gifer.com/MPx.gif");
+      min-height: 99%;
+
+    }
+
+    .menu {
+      display: none;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">Ana Sayfa</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">Hakkında</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">Menü</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">Konum</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"> Hergün 10:00 ile 23:59 Arası. </span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text- Blue" style="font-size:90px">Saka<br>Home</span>
+  </div>
+  <div class="w3-display-bottomleft w3-center w3-padding-large">
+    <span class="w3-text-white"> Atatürk mah. <br> Esnaf San. Üstü<br> Şok Mar. Altı<br> Tunceli/Merkez</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">  HAKKINDA </span></h5>
+
+    <div class="w3-panel w3-leftbar w3-light-grey">
+     
+      <p>Yetkilimiz : Cihan Saka</p>
+    </div>
+    <img src="https://i0.shbdn.com/photos/00/17/22/x5_1146001722y3y.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Çalışma Saatlerimiz:</strong> Hergün 10:00 ile 23:59 Arasında.</p>
+   
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MENÜ</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Yiyecekler</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">İçecekler</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>İzmir Kumru </h5>
+      <p class="w3-text-grey">85.00 TL</p><br>
+    
+      <h5>Patso  </h5>
+      <p class="w3-text-grey">70.00 TL</p><br>
+    
+      <h5> Ayvalık Tost </h5>
+      <p class="w3-text-grey">85.00 TL</p><br>
+    
+      <h5> Hamburger   </h5>
+      <p class="w3-text-grey">150.00 TL</p><br>
+
+      <h5> Porsiyon Patates    </h5>
+      <p class="w3-text-grey">60.00 TL</p><br>
+
+      <h5> Melemen    </h5>
+      <p class="w3-text-grey">90.00 TL</p><br>      
+
+      <h5> Sebzeli Tavuklu Makarna    </h5>
+      <p class="w3-text-grey">150.00 TL</p><br>
+
+      <h5> Köri Soslu Tavuk     </h5>
+      <p class="w3-text-grey">200.00 TL</p><br>
+
+
+      <h5> Tam Tost    </h5>
+      <p class="w3-text-grey">100.00 TL</p><br>
+
+      <h5> Yumurtalı Tost    </h5>
+      <p class="w3-text-grey">120.00 TL</p><br>
+
+      <h5> Kavurmalı Yarım Tost    </h5>
+      <p class="w3-text-grey">150.00 TL</p><br>
+
+      <h5> Sucuklu Yumurta    </h5>
+      <p class="w3-text-grey">70.00 TL</p><br>
+
+      <h5> Soslu Makarna    </h5>
+      <p class="w3-text-grey">100.00 TL</p><br>
+
+      <h5>    --Tatlılar--   </h5><br><br>
+
+      <h5> Tiramisu     </h5>
+      <p class="w3-text-grey">90.00 TL</p><br>
+
+      <h5> Sufle    </h5>
+      <p class="w3-text-grey">90.00 TL</p><br>
+
+      <h5> Trileçe     </h5>
+      <p class="w3-text-grey">100.00 TL</p><br>
+
+   
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Çay </h5>
+      <p class="w3-text-grey">10 TL</p><br>
+    
+      <h5>Su </h5>
+      <p class="w3-text-grey">10 TL</p><br>
+
+      <h5>Oralet   </h5>
+      <p class="w3-text-grey">12.50 TL</p><br>
+
+      <h5>Küçük Nescafe   </h5>
+      <p class="w3-text-grey">25 TL</p><br>
+
+      <h5>Sade Nescafe   </h5>
+      <p class="w3-text-grey">40 TL</p><br>
+
+      <h5>Nescafe  </h5>
+      <p class="w3-text-grey">50 TL</p><br>
+
+      <h5>Sütlü Nescafe  </h5>
+      <p class="w3-text-grey">60 TL</p><br>
+
+      <h5>Sahlep  </h5>
+      <p class="w3-text-grey">65 TL</p><br>
+
+      <h5>French Press  </h5>
+      <p class="w3-text-grey">65 TL</p><br>
+
+      <h5>Sütlü Çikolata  </h5>
+      <p class="w3-text-grey">65 TL</p><br>
+
+      <h5>Churchill  </h5>
+      <p class="w3-text-grey">50 TL</p><br>
+
+      <h5>White Mocha  </h5>
+      <p class="w3-text-grey">75 TL</p><br>
+
+      <h5>Caramel Mocha  </h5>
+      <p class="w3-text-grey">75 TL</p><br>
+
+      <h5>Americano   </h5>
+      <p class="w3-text-grey">60 TL</p><br>
+
+      <h5>Chocalate Mocha  </h5>
+      <p class="w3-text-grey">75 TL</p><br>
+
+      <h5>Sütlü Americano  </h5>
+      <p class="w3-text-grey">75 TL</p><br>
+
+      <h5>Berry Hibiscus  </h5>
+      <p class="w3-text-grey">80 TL</p><br>
+
+      <h5>Cool Line  </h5>
+      <p class="w3-text-grey">80 TL</p><br>
+
+      <h5>Coca Cola/Fanta  </h5>
+      <p class="w3-text-grey">40 TL</p><br>
+
+      <h5>Meyveli Soda  </h5>
+      <p class="w3-text-grey">30 TL</p><br>
+  
+      <h5>Sade Soda  </h5>
+      <p class="w3-text-grey">25 TL</p><br>
+
+      <h5>Kutu Meyve Suyu  </h5>
+      <p class="w3-text-grey">40 TL</p><br>
+
+      <h5>Fuse Tea  </h5>
+      <p class="w3-text-grey">40 TL</p><br>
+
+      <h5>Türk Kahvesi  </h5>
+      <p class="w3-text-grey">50 TL</p><br>
+
+
+    
+    </div>  
+    
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<div class="w3-container" id="where">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">  Yerimiz </span></h5>
+
+    <div class="w3-center w3-light-grey w3-padding-48 w3-large"">
+      <p>Google Haritalar ile konumu görüntülüleyebilirsiniz.</p>
+      <a class="w3-button w3-round-xxlarge w3-dark-grey w3-margin-bottom" href="https://www.google.com/maps/place/Saka+Home/@39.0797137,39.5354301,15z/data=!4m6!3m5!1s0x407123fb0666ac3d:0xd00d1c0dc2bb17e1!8m2!3d39.0797137!4d39.5354301!16s%2Fg%2F11t95qtlk6?entry=ttu" target="_blank">Konum </a>
+ <!-- Footer end. -->
+    </div>
+
+  </div>
+</div>
+
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+ <!-- Footer end. -->
+ </footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
